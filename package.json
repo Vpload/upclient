@@ -1,0 +1,22 @@
+{
+  "name": "upclient",
+  "version": "0.0.1",
+  "description": "Command-line client to the upload pastebin",
+  "main": "upclient.js",
+  "preferGlobal": "true",
+  "bin": {
+    "up": "upclient.js"
+  },
+  "author": "Keith Morrow",
+  "dependencies": {
+    "form-data": "*",
+    "mime": "*",
+    "mmmagic": "*",
+    "snack-cli": "*",
+    "string": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT"
+}
